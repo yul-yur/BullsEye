@@ -13,6 +13,8 @@
 		CCEB75C223CCA19E003B3C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEB75C023CCA19E003B3C65 /* Main.storyboard */; };
 		CCEB75C423CCA1A1003B3C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEB75C323CCA1A1003B3C65 /* Assets.xcassets */; };
 		CCEB75C723CCA1A1003B3C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEB75C523CCA1A1003B3C65 /* LaunchScreen.storyboard */; };
+		CCF5DE7224337EF300A2A51E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF5DE7124337EF300A2A51E /* AboutViewController.swift */; };
+		CCF5DE762433818400A2A51E /* AboutTheAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF5DE752433818400A2A51E /* AboutTheAuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CCEB75C323CCA1A1003B3C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCEB75C623CCA1A1003B3C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCEB75C823CCA1A1003B3C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF5DE7124337EF300A2A51E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CCF5DE752433818400A2A51E /* AboutTheAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		CCEB75B923CCA19E003B3C65 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				CCF5DE752433818400A2A51E /* AboutTheAuthorViewController.swift */,
 				CCEB75BA23CCA19E003B3C65 /* AppDelegate.swift */,
 				CCEB75BC23CCA19E003B3C65 /* SceneDelegate.swift */,
 				CCEB75BE23CCA19E003B3C65 /* ViewController.swift */,
 				CCEB75C023CCA19E003B3C65 /* Main.storyboard */,
+				CCF5DE7124337EF300A2A51E /* AboutViewController.swift */,
 				CCEB75C323CCA1A1003B3C65 /* Assets.xcassets */,
 				CCEB75C523CCA1A1003B3C65 /* LaunchScreen.storyboard */,
 				CCEB75C823CCA1A1003B3C65 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				CCEB75BF23CCA19E003B3C65 /* ViewController.swift in Sources */,
 				CCEB75BB23CCA19E003B3C65 /* AppDelegate.swift in Sources */,
+				CCF5DE7224337EF300A2A51E /* AboutViewController.swift in Sources */,
+				CCF5DE762433818400A2A51E /* AboutTheAuthorViewController.swift in Sources */,
 				CCEB75BD23CCA19E003B3C65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
